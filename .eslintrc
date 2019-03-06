@@ -1,0 +1,10 @@
+{
+  "extends": "react-native",
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error", { "singleQuote": true }],
+    "no-console": "off",
+    "react/jsx-no-bind": "off",
+    "import/no-unresolved": "off"
+  }
+}
